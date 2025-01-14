@@ -58,7 +58,7 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
   Machine learning model using a linear model with feature selection followed by an Elastic Net model. Genes highlighted in green were also selected by limma. Samples in red represent Solid Tissue Normal, while samples in black represent Primary Solid Tumor.
 
 - **Supplementary Figure 4:**
-  The expression pattern of all the key genes (through TNMplot) across the selected cancer types (26 genes × 4 cancer types) 
+  The expression patterns of all key genes (analyzed using TNMplot) across the selected cancer types (26 genes × 4 cancer types) and in Metastasis vs. Tumor and Normal.
 
 - **Supplementary Figure 5:**  
   A figure showing drug-target interactions of non-approved drugs (right side) alongside approved drugs (left side).

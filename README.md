@@ -29,16 +29,21 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
 ### Supplementary Data
 - **Suppli-1 data (DEGs_TCGA):**  
   Information about DEGs (Differentially Expressed Genes) from selected cancer types.
-
-- **Suppli-3 data (Integrated Drug-Target):**  
-  Details about drug-target interactions from various databases.
-
-- **SUPPLI_DATA__TOPO+PATHWAYS:**  
-  PPI (Protein-Protein Interaction) network along with its topological properties.
-
+  
 - **Suppli-2 data (WGCNA result combined):**  
   Comprehensive results of the weighted gene co-expression network analysis.
 
+- **Suppli-3 data (TOPO+PATHWAYS):**  
+  PPI (Protein-Protein Interaction) network along with its topological properties.
+
+- **Suppli-4 data (Integrated Drug-Target):**  
+  Details about drug-target interactions from various databases.
+
+- **Suppli-5 data (Detailed Clusters info):**
+- A comprehensive discussion of all 11 functional clusters, along with relevant references, is presented in
+
+
+### Cytoscape files
 - **Drug-Target Interaction Network.cys:**  
   Cytoscape file containing the Drug-Target Interaction Network.
 
@@ -55,10 +60,13 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
   Common differentially expressed genes across SCT.
 
 - **Supplementary Figure 3:**  
-  Machine learning model using a linear model with feature selection followed by an Elastic Net model. Genes highlighted in green were also selected by limma. Samples in red represent Solid Tissue Normal, while samples in black represent Primary Solid Tumor.
+  Machine learning model using a linear model with feature selection followed by an Elastic Net model. Limma also selected genes highlighted in green. Samples in red represent Solid Tissue Normal, while samples in black represent Primary Solid Tumor.
 
 - **Supplementary Figure 4:**
   The expression patterns of all key genes (analyzed using TNMplot) across the selected cancer types (26 genes × 4 cancer types) and in Metastasis vs. Tumor and Normal.
 
 - **Supplementary Figure 5:**  
+  This figure illustrates the expression patterns of nine genes across 33 cancer types. The heatmap highlights similar expression trends among different cancers, while the bar plot depicts consistent expression patterns of each gene across multiple cancer types.
+
+- **Supplementary Figure 6:**  
   A figure showing drug-target interactions of non-approved drugs (right side) alongside approved drugs (left side).

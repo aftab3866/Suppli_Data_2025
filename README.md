@@ -65,8 +65,10 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
 - **Supplementary Figure 4:**
   The expression patterns of all key genes (analyzed using TNMplot) across the selected cancer types (26 genes × 4 cancer types) and in Metastasis vs. Tumor and Normal.
 
-- **Supplementary Figure 5:**  
-  This figure illustrates the expression patterns of nine genes across 33 cancer types. The heatmap highlights similar expression trends among different cancers, while the bar plot depicts consistent expression patterns of each gene across multiple cancer types.
+  - **Supplementary Figure 5:**  
+  A figure showing drug-target interactions of non-approved drugs (right side) alongside approved drugs (left side).
 
 - **Supplementary Figure 6:**  
-  A figure showing drug-target interactions of non-approved drugs (right side) alongside approved drugs (left side).
+  This figure illustrates the expression patterns of nine genes across 33 cancer types. The heatmap highlights similar expression trends among different cancers, while the bar plot depicts consistent expression patterns of each gene across multiple cancer types.
+
+

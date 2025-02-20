@@ -63,7 +63,7 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
   Machine learning model using a linear model with feature selection followed by an Elastic Net model. Limma also selected genes highlighted in green. Samples in red represent Solid Tissue Normal, while samples in black represent Primary Solid Tumor.
 
 - **Supplementary Figure 4:**
-  The expression patterns of all key genes (26 genes × 4 cancer types) across Tumor and Normal tissues were analyzed using TNMplot. The heatmap shows that hub genes exhibit higher expression in metastatic tumors compared to primary tumors in colon, breast, and prostate cancers.
+  The expression patterns of all key genes (26 genes × 4 cancer types) across Tumor and Normal tissues were analyzed using TNMplot. The heatmap shows that hub genes exhibit higher expression in metastatic tumors compared to primary tumors in colon, breast, and prostate cancers. A Venn diagram illustrating the number of genes with a fold change greater than 1 across all three cancers.
 
 - **Supplementary Figure 5:**  
   A figure showing drug-target interactions of non-approved drugs (right side) alongside approved drugs (left side).

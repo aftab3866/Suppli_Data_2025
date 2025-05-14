@@ -12,7 +12,7 @@ This script extends the analysis of TCGA datasets by incorporating survival anal
 - Cox proportional hazards regression models for advanced survival analysis.  
 
 ## 3. **Analysing data from GEO.R**
-This script is tailored for analyzing data from the Gene Expression Omnibus (GEO). Its key features include:  
+This script is tailored to analyze data from the Gene Expression Omnibus (GEO). Its key features include:  
 - Importing and normalizing GEO datasets.  
 - Identifying DEGs across experimental conditions.  
 - Integrating GEO data analysis with findings from TCGA datasets for broader insights.  
@@ -27,19 +27,19 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
 # Supplementary Data and Figures
 
 ### Supplementary Data
-- **Suppli-1 data (DEGs_TCGA):**  
-  Information about DEGs (Differentially Expressed Genes) from selected cancer types.
+- **1. Suppli-1 data ( total_DEGs and Common):**  
+  This section presents information on differentially expressed genes (DEGs) identified in selected cancer types. It includes a list of common DEGs and a comparison with an independent dataset (GEO), visualized through a heatmap of log2 fold changes and a scatter plot showing the correlation between the TCGA and GEO datasets.
   
-- **Suppli-2 data (WGCNA result combined):**  
+- **2. Suppli-2 data (WGCNA result combined):**  
   Comprehensive results of the weighted gene co-expression network analysis.
 
-- **Suppli-3 data (TOPO+PATHWAYS):**  
+- **3. Suppli-3 data (TOPO+PATHWAYS):**  
   PPI (Protein-Protein Interaction) network along with its topological properties.
 
-- **Suppli-4 data (Integrated Drug-Target):**  
+- **4. Suppli-4 data (Integrated Drug-Target):**  
   Details about drug-target interactions from various databases.
 
-- **Suppli-5 data (Detailed Clusters info):**
+- **5. Suppli-5 data (Detailed Clusters info):**
 - A comprehensive discussion of all 11 functional clusters, along with relevant references, is presented in
 
 
@@ -57,10 +57,10 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
   A plot showing the Principal Component (PC) analysis for sample variation in selected cancer types (SCT) and a volcano plot displaying the differentially expressed genes in SCT.
 
 - **Supplementary Figure 2:**  
-  Common differentially expressed genes across SCT.
+  Commonly differentially expressed genes across SCT.
 
 - **Supplementary Figure 3:**  
-  Machine learning model using a linear model with feature selection followed by an Elastic Net model. Limma also selected genes highlighted in green. Samples in red represent Solid Tissue Normal, while samples in black represent Primary Solid Tumor.
+  Machine learning model using a linear model with feature selection, followed by an Elastic Net model. Limma also selected genes highlighted in green. Samples in red represent Solid Tissue Normal, while samples in black represent Primary Solid Tumor.
 
 - **Supplementary Figure 4:**
   The expression patterns of all key genes (26 genes × 4 cancer types) across Tumor and Normal tissues were analyzed using TNMplot. The heatmap shows that hub genes exhibit higher expression in metastatic tumors compared to primary tumors in colon, breast, and prostate cancers. A Venn diagram illustrating the number of genes with a fold change greater than 1 across all three cancers.

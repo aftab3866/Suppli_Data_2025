@@ -39,8 +39,6 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
 - **4. Suppli-4 data (Integrated Drug-Target):**  
   Details about drug-target interactions from various databases.
 
-- **5. Suppli-5 data (Detailed Clusters info):**
-- A comprehensive discussion of all 11 functional clusters, along with relevant references, is presented in
 
 
 ### Cytoscape files
@@ -66,9 +64,6 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
   The expression patterns of all key genes (26 genes × 4 cancer types) across Tumor and Normal tissues were analyzed using TNMplot. The heatmap shows that hub genes exhibit higher expression in metastatic tumors compared to primary tumors in colon, breast, and prostate cancers. A Venn diagram illustrating the number of genes with a fold change greater than 1 across all three cancers.
 
 - **Supplementary Figure 5:**  
-  A figure showing drug-target interactions of non-approved drugs (right side) alongside approved drugs (left side).
-
-- **Supplementary Figure 6:**  
   This figure illustrates the expression patterns of nine genes across 33 cancer types. The heatmap highlights similar expression trends among different cancers, while the bar plot depicts consistent expression patterns of each gene across multiple cancer types.
 
 

@@ -28,13 +28,13 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
 
 ### Supplementary Data
 - **1. Suppli-1 data ( total_DEGs and Common):**  
-  This section presents information on differentially expressed genes (DEGs) identified in selected cancer types. It includes a list of common DEGs and a comparison with an independent dataset (GEO), visualized through a heatmap of log2 fold changes and a scatter plot showing the correlation between the TCGA and GEO datasets.
+  This section presents information on differentially expressed genes (DEGs) identified in selected cancer types. (A) It includes a list of common DEGs and a comparison with an independent dataset (GEO), visualized through a heatmap of log2 fold changes and a scatter plot showing the correlation between the TCGA and GEO datasets. (B) cross validated with Promics data. (C) Total no. of DEGs across SCTs. (D) List of Shared DEGs among the SCTs. (E) Geneset Enrichment Analysis (GSEA). (F) Comparison expression in P. Tumoro vs Metastases across SCTs.
   
 - **2. Suppli-2 data (WGCNA result combined):**  
   Comprehensive results of the weighted gene co-expression network analysis.
 
 - **3. Suppli-3 data (TOPO+PATHWAYS):**  
-  PPI (Protein-Protein Interaction) network along with its topological properties.
+  (Sheet-1).PPI (Protein-Protein Interaction) network along with its topological properties. (Sheet 3-4)Inferred genes list and their Network topological properties.(Sheet-4) Detailed information about 11 complexities and their pathway enrichment analysis (ORA)
 
 - **4. Suppli-4 data (Integrated Drug-Target):**  
   Details about drug-target interactions from various databases.

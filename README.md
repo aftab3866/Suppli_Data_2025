@@ -24,6 +24,17 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
 - Exporting WGCNA results for further pathway and topological analysis.  
 - Ensured to be tested and optimized for accuracy and reproducibility.
 
+  ## 5. PAN-CANCER ANALYSIS TCGAPLOT.R**
+ This script allows analysis of any single gene or multiple genes of interest for expression patterns across pan-cancer datasets. It can also perform many other important tasks. For details, visit: https://github.com/tjhwangxiong/TCGAplot
+ [cited: PMID: 38105215]
+
+  ## 6. TCGA_GO&GSEA.R**
+ This script allows GSEA-GO to be grouped by the expression of a specific gene. For details, visit: https://github.com/tjhwangxiong/TCGAplot
+ [cited: PMID: 38105215]
+
+  ## 7-8. PART-1.1__TCGA-OS-COX_HR---## Perfreable (gene by gene).R** &&&& PART-1.2__TCGA-OS-COX_HR---## Perfreable ( use when satge and gender not defined).R
+ This script evaluates the prognostic value of candidate genes while adjusting for clinical factors and creates publication-ready visualizations and reports
+ 
 # Supplementary Data and Figures
 
 ### Supplementary Data

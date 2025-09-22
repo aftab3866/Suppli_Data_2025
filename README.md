@@ -22,7 +22,7 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
 - Constructing co-expression networks using DEGs profiles.  
 - Identifying gene modules correlated with clinical traits or phenotypes.  
 - Exporting WGCNA results for further pathway and topological analysis.  
-- Ensured to be tested and optimized for accuracy and reproducibility.  
+- Ensured to be tested and optimized for accuracy and reproducibility.
 
 # Supplementary Data and Figures
 
@@ -61,9 +61,9 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
   Machine learning model using a linear model with feature selection, followed by an Elastic Net model. Limma also selected genes highlighted in green. Samples in red represent Solid Tissue Normal, while samples in black represent Primary Solid Tumor.
 
 - **Supplementary Figure 4:**
-  The expression patterns of all key genes (26 genes × 4 cancer types) across Tumor and Normal tissues were analyzed using TNMplot. The heatmap shows that hub genes exhibit higher expression in metastatic tumors compared to primary tumors in colon, breast, and prostate cancers. A Venn diagram illustrating the number of genes with a fold change greater than 1 across all three cancers.
+  The expression patterns of all key genes (26 genes × 4 cancer types) across Tumor and Normal tissues were analyzed using TNMplot.
 
 - **Supplementary Figure 5:**  
-  This figure illustrates the expression patterns of nine genes across 33 cancer types. The heatmap highlights similar expression trends among different cancers, while the bar plot depicts consistent expression patterns of each gene across multiple cancer types.
+  This figure illustrates the Pan-Cancer Expression Landscape of 26 signature genes across 33 cancer types. The box plot highlights the expression pattern for significantly Up and down-regulated signature genes in 33 Types of cancer.
 
 

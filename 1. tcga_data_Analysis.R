@@ -265,7 +265,7 @@ write.csv(results1, file = "l2ogFC1.5.csv", row.names = FALSE)
 
 
 #################################################################################################################
-##  Classification(Train and test paradigm)                 PART-3
+##  Classification(Train and test paradigm)                 PART-3    https://www.costalab.org/wp-content/uploads/2020/11/R_class_D3.html
 #################################################################################################################
 ## Now, we will explore the use of a machine learning method to classify an unseen sample as being a tumor or not. 
 #To achieve this goal we are going to build first a simple linear model (with feature selection), and then an Elastic Net model. 

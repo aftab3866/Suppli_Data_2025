@@ -48,10 +48,10 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
   (Sheet-1).PPI (Protein-Protein Interaction) network along with its topological properties. (Sheet 3-4)Inferred genes list and their Network topological properties.(Sheet-4) Detailed information about 11 complexities and their pathway enrichment analysis (ORA)
 
 - **4. Suppli-4 data (Cluster info):**
-    Full details of the hub genes, their interactions, and functional roles within each of the 11 clusters.
+Full details of the hub genes, their interactions, and functional roles within each of the 11 clusters.
 
 - **5. Suppli-4 data (Immunotherapy response):**
-  Full details on the hub genes and their corresponding immunotherapy response, including predictive values and expression changes.
+Full details on the hub genes and their corresponding immunotherapy response, including predictive values and expression changes.
 
 ### Cytoscape files
 - **PPI network and clusters.cys:**  

@@ -47,22 +47,21 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
 - **3. Suppli-3 data (TOPO+PATHWAYS):**  
   (Sheet-1).PPI (Protein-Protein Interaction) network along with its topological properties. (Sheet 3-4)Inferred genes list and their Network topological properties.(Sheet-4) Detailed information about 11 complexities and their pathway enrichment analysis (ORA)
 
-- **4. Suppli-4 data (Integrated Drug-Target):**  
-  Details about drug-target interactions from various databases.
+  - **4. Suppli-4 data (Cluster info):**  
+  Full details of the hub genes, their interactions, and functional roles within each of the 11 clusters.
 
+- **5. Suppli-4 data (Immunotherapy response):**
+  Full details on the hub genes and their corresponding immunotherapy response, including predictive values and expression changes.
 
-
+  
 ### Cytoscape files
-- **Drug-Target Interaction Network.cys:**  
-  Cytoscape file containing the Drug-Target Interaction Network.
-
 - **PPI network and clusters.cys:**  
   Cytoscape file with PPI Network and cluster information.
 
----
 
 ### Supplementary Figures
-- **Supplementary Figure 1:**  
+
+  - **Supplementary Figure 1:**  
   A plot showing the Principal Component (PC) analysis for sample variation in selected cancer types (SCT) and a volcano plot displaying the differentially expressed genes in SCT.
 
 - **Supplementary Figure 2:**  
@@ -72,9 +71,12 @@ This is a comprehensive script for conducting Weighted Gene Co-expression Networ
   Machine learning model using a linear model with feature selection, followed by an Elastic Net model. Limma also selected genes highlighted in green. Samples in red represent Solid Tissue Normal, while samples in black represent Primary Solid Tumor.
 
 - **Supplementary Figure 4:**
+  Gene set enrichment analysis (GSEA) mapped onto Reactome pathways, detailing the functional annotation of all differentially expressed genes from four cancer types. The colour of the nodes represents the normalized enrichment score (NES); positive NES values indicate increased pathway activity, while negative NES values indicate decreased activity. Each node represents a pathway. The significance of each path is highlighted by the node border, with darker colours indicating greater significance. Grey nodes indicate irrelevant pathways.
+
+- **Supplementary Figure 5:**
   The expression patterns of all key genes (26 genes × 4 cancer types) across Tumor and Normal tissues were analyzed using TNMplot.
 
-- **Supplementary Figure 5:**  
+- **Supplementary Figure 6:**  
   This figure illustrates the Pan-Cancer Expression Landscape of 26 signature genes across 33 cancer types. The box plot highlights the expression pattern for significantly Up and down-regulated signature genes in 33 Types of cancer.
 
 

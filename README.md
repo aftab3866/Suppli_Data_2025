@@ -2,7 +2,7 @@
 
 A comprehensive bioinformatics workflow for identifying and validating hub genes across multiple cancer types using TCGA data.
 
-![Workflow Diagram](workflow.png)
+![Workflow Diagram](workflow.tiff)
 *Figure 1: Comprehensive analysis workflow from data acquisition to clinical validation*
 
 ## 📋 Overview

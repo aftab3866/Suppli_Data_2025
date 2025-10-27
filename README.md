@@ -46,10 +46,11 @@ This pipeline integrates multi-omics data analysis, machine learning, and networ
 - We examined the expression patterns of the hub gene sets (Up & Down) across the four selected cancer types (breast, lung, colorectal, and prostate cancers) using a large cohort comprising these same cancers.
 - **Protein Level**: UALCAN database: It is a comprehensive, user-friendly, and interactive web resource for analyzing cancer OMICS data (https://ualcan.path.uab.edu/)
 - **Diagnostic Power**: ROC analysis with the TCGAplot package in R.
-- **Pan-Cancer**: Check the hub gene's expression consistency across 33 TCGA cancer types.
-
+- **Pan-Cancer**: We check the expression consistency across 33 TCGA cancer types of hub gene sets (Up & Down).
+- **Primary and metastatic tumors**: We also evaluated the expression consistency of the hub gene set between primary and metastatic tumors across the elected cancer types (breast, lung, colorectal, and prostate cancers) using GeneChip datasets.
 ### 6. 🏥 Clinical & Immunological Analysis
-- **Survival Analysis**: Cox Proportional Hazards Model (GEPIA3.0 for overall and progression-free survival)
+- **Survival Analysis**: Cox Proportional Hazards Model
+     - We used GEPIA 3.0 to assess overall survival and progression-free survival for the hub gene set, both within the four selected cancer types (breast, lung, colorectal, and prostate cancers) and across pan-cancer cohorts (33 types of cancers).
 - **Comprehensive pipeline for survival analysis**: using Cox proportional hazards models, integrating both clinical variables and gene expression data
     - survival + rms → Core Cox modeling & validation.
     - survminer + forestmodel + ggplot2 + ggpubr → Visualization (KM curves, forest plots, HR plots).

@@ -1,7 +1,8 @@
 # 🧬 A comprehensive bioinformatics workflow for identifying and validating hub genes across multiple cancer types using TCGA data.
+Cancer remains a leading cause of global mortality, with breast, lung, colorectal, and prostate cancers among the most prevalent. Despite their distinct clinical and molecular features, this study aimed to identify shared molecular signatures across these four selected cancer types (SCTs) to uncover potential pan-cancer diagnostic and prognostic biomarkers and therapeutic targets. Transcriptomic data from The Cancer Genome Atlas (TCGA) were analyzed through a stringent bioinformatic pipeline. 
 
 
-![Workflow Diagram](workflow.TIF)
+![Workflow Diagram](workflow.png)
 *Figure 1: Comprehensive analysis workflow from data acquisition to clinical validation*
 
 ## 📋 Overview

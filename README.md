@@ -7,7 +7,7 @@ Cancer remains a leading cause of global mortality, with breast, lung, colorecta
 
 ## 📋 Overview
 
-This pipeline integrates multi-omics data analysis, machine learning, and network biology to identify robust cancer potential biomarkers with clinical relevance across major cancers including breast, lung, colorectal, and prostate cancers.
+This pipeline integrates multi-omics data analysis, machine learning, and network biology to identify robust cancer potential biomarkers with clinical relevance across major cancers, including breast, lung, colorectal, and prostate cancers.
 
 ## 🔄 Workflow Steps
 
@@ -24,7 +24,7 @@ This pipeline integrates multi-omics data analysis, machine learning, and networ
   - `padj < 0.05`
 - **Output**: Identification of significantly differentially expressed genes
 
-### 3. 🎯 Multi-Method Gene Discovery
+### 3. 🎯 Multi-Method key Gene Identification
 | Method | Approach | Key Features |
 |--------|----------|--------------|
 | **DEG Analysis** | Limma-based | Traditional differential expression |
@@ -32,25 +32,29 @@ This pipeline integrates multi-omics data analysis, machine learning, and networ
 | **Machine Learning** | ElasticNet pipeline | Feature selection with `glmnet` and `caret` |
 
 ### 4. 🌐 Network Analysis & Functional Enrichment
-- **PPI Construction**: BioGrid and HINT databases
-- **Clustering**: MCL-clustering (degree cut-off ≥ 3, inflation parameter ≥ 2)
-- **Pathway Analysis**: 
-  - `gsePathway()` enrichment
-  - ClusterProfiler package
-  - MSigDB, KEGG, EPC, Reactome databases
+- **PPI Construction**: Integrated entries from BioGrid and HINT databases to create a comprehensive dataset of documented human-human (Homo sapiens) PPIs.
+- **Clustering**: The Markov Clustering Algorithm (MCL) --> (degree cut-off ≥ 3, inflation parameter ≥ 2)
+- **Gene Set Enrichment Analysis (GSEA) Common DEGs**: 
+  - `gsePathway()' function from the clusterProfiler package in R
+  - pvalueCutoff < 0.05, minGSSize = 2, and maxGSSize = 500.
+- **Functional enrichment analysis of clusters highlighted several significantly overrepresented pathways**: 
+  - MSigDB, KEGG, EPC, Reactome databases: We integrate all databases for pathway analysis to ensure comprehensive coverage.
+  -  pvalueCutoff < 0.05
 
 ### 5. ✅ Hub Gene Validation
-- **Expression Level**: TNMPlot validation
-- **Protein Level**: UALCAN database
+- **Expression Level**: TNMPlot validation: It includes 56,938 unique samples from various sources, with 15,648 normal, 40,442 tumors, and 848 metastatic tumor samples. This large cohort provides a comprehensive view of gene expression in normal and cancer tissues (https://tnmplot.com/analysis/). 
+- **Protein Level**: UALCAN database (UALCAN is a comprehensive, user-friendly, and interactive web resource for analyzing cancer OMICS data --> https://ualcan.path.uab.edu/)
 - **Diagnostic Power**: ROC analysis with TCGAplot
 - **Pan-Cancer**: Consistency across 33 TCGA cancer types
 
 ### 6. 🏥 Clinical & Immunological Analysis
 - **Survival Analysis**: Cox Proportional Hazards Model (GEPIA3.0 for overall and progression-free survival)
-- **Clinical Integration**: age, gender, tumor stage
+- **Comprehensive pipeline for survival analysis**: using Cox proportional hazards models, integrating both clinical variables and gene expression data
+    - survival + rms → Core Cox modeling & validation.
+    - survminer + forestmodel + ggplot2 + ggpubr → Visualization (KM curves, forest plots, HR plots).
 - **Immune Profiling**: 
-  - Immune-correlation analysis
-  - Immune-checkpoint inhibitors response
+  - Immune-correlation analysis (including immune checkpoint genes (ICGs), chemokines, chemokine receptors, immune stimulators, and immune inhibitors)
+  - Immune-checkpoint inhibitors response (PD-1; PD-L1; CTLA-4)
     
 ## 🛠️ Installation & Usage
 All the used scripts are available here!

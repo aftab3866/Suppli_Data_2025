@@ -42,10 +42,11 @@ This pipeline integrates multi-omics data analysis, machine learning, and networ
   -  pvalueCutoff < 0.05
 
 ### 5. ✅ Hub Gene Validation
-- **Expression Level**: TNMPlot validation: It includes 56,938 unique samples from various sources, with 15,648 normal, 40,442 tumors, and 848 metastatic tumor samples. This large cohort provides a comprehensive view of gene expression in normal and cancer tissues (https://tnmplot.com/analysis/). 
-- **Protein Level**: UALCAN database (UALCAN is a comprehensive, user-friendly, and interactive web resource for analyzing cancer OMICS data --> https://ualcan.path.uab.edu/)
-- **Diagnostic Power**: ROC analysis with TCGAplot
-- **Pan-Cancer**: Consistency across 33 TCGA cancer types
+- **Expression Level**: TNMPlot validation: It includes 56,938 unique samples from various sources, with 15,648 normal, 40,442 tumors, and 848 metastatic tumor samples. This large cohort provides a comprehensive view of gene expression in normal and cancer tissues (https://tnmplot.com/analysis/).
+       - We examined the expression patterns of the hub genes across the four selected cancer types (breast, lung, colorectal, and prostate cancers) using a large cohort comprising these same cancers.
+- **Protein Level**: UALCAN database: It is a comprehensive, user-friendly, and interactive web resource for analyzing cancer OMICS data (https://ualcan.path.uab.edu/)
+- **Diagnostic Power**: ROC analysis with the TCGAplot package in R.
+- **Pan-Cancer**: Check the hub gene's expression consistency across 33 TCGA cancer types.
 
 ### 6. 🏥 Clinical & Immunological Analysis
 - **Survival Analysis**: Cox Proportional Hazards Model (GEPIA3.0 for overall and progression-free survival)

@@ -3,11 +3,11 @@ Cancer remains a leading cause of global mortality, with breast, lung, colorecta
 
 
 ![Workflow Diagram](workflow.png)
-*Figure 1: Comprehensive analysis workflow from data acquisition to clinical validation*
+*Comprehensive analysis workflow*
 
 ## 📋 Overview
 
-This pipeline integrates multi-omics data analysis, machine learning, and network biology to identify robust cancer biomarkers with clinical relevance across 33 cancer types.
+This pipeline integrates multi-omics data analysis, machine learning, and network biology to identify robust cancer potential biomarkers with clinical relevance across major cancers including breast, lung, colorectal, and prostate cancers.
 
 ## 🔄 Workflow Steps
 
@@ -46,19 +46,11 @@ This pipeline integrates multi-omics data analysis, machine learning, and networ
 - **Pan-Cancer**: Consistency across 33 TCGA cancer types
 
 ### 6. 🏥 Clinical & Immunological Analysis
-- **Survival Analysis**: Cox Proportional Hazards Model
+- **Survival Analysis**: Cox Proportional Hazards Model (GEPIA3.0 for overall and progression-free survival)
 - **Clinical Integration**: age, gender, tumor stage
 - **Immune Profiling**: 
   - Immune-correlation analysis
   - Immune-checkpoint inhibitors response
-  - CEPIA3.0 for overall and progression-free survival
-
+    
 ## 🛠️ Installation & Usage
-
-```bash
-# Clone repository
-git clone https://github.com/yourusername/cancer-biomarker-workflow.git
-cd cancer-biomarker-workflow
-
-# Install required R packages
-Rscript install_dependencies.R
+All the used scripts are available here!

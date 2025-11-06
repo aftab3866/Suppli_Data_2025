@@ -58,5 +58,4 @@ This pipeline integrates multi-omics data analysis, machine learning, and networ
   - Immune-correlation analysis (including immune checkpoint genes (ICGs), chemokines, chemokine receptors, immune stimulators, and immune inhibitors)
   - Immune-checkpoint inhibitors response (PD-1; PD-L1; CTLA-4)
     
-## 🛠️ Installation & Usage
-All the used scripts are available here!
+[[[ Please feel free to write to me at *aftab07alig@gmail.com* if you encounter any issues. I’ll be happy to address all your queries regarding this analysis.]]]
